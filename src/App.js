@@ -2,6 +2,7 @@ import 'antd/dist/antd.css'
 import { useState } from "react";
 import Form from "./components/Form"
 import FormResults from "./components/FormResults";
+import Title from "./components/Title";
 
 
 
@@ -52,6 +53,7 @@ const App = () => {
 
   return (
       <>
+          <Title />
           <Form onChange={inputHandler} onSubmit={submitHandler} value={inputValue}/>
           {displayMissingValue && <FormResults valuesArray={valuesArray} missingValue={missingValue} />}
       </>
