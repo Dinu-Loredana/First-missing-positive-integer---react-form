@@ -5,7 +5,7 @@ const { Item } = FormAntd
 
 
 const FormStyled = styled(FormAntd)`
-  margin: 6em auto;
+  margin: 8em auto;
   width: 50%;
 `
 
@@ -31,7 +31,7 @@ const Form = ({onChange, onSubmit}) => {
             </Item>
 
             <Item>
-                <ButtonStyled type="primary" shape="round" htmlType="submit">Find Missing Number</ButtonStyled>
+                <ButtonStyled type="primary" htmlType="submit">Find Number</ButtonStyled>
             </Item>
         </FormStyled>
     )
