@@ -1,6 +1,6 @@
 const Title = () => {
 
-    return <h1 style={{textAlign:'center', color: 'navy', fontSize:'1em'}}>First Missing Positive Integer</h1>
+    return <h2 style={{textAlign:'center', color: 'blue', fontSize:'1em'}}>First Missing Positive Integer</h2>
 }
 
 
