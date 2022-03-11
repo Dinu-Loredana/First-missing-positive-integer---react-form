@@ -1,5 +1,5 @@
 const tes1 = () => {
-    return
+    return (
     <>
     <p>tes1 here</p>
     <p>tes2 here</p>
@@ -8,5 +8,9 @@ const tes1 = () => {
     <p>tes5 here</p>
     <p>tes5 here</p>
     <p>tes5 here</p>
+    <p>experiment in detached head</p>
+    <p>here</p>
+    <p>tes1 here</p>
     </>
+    )
 }
