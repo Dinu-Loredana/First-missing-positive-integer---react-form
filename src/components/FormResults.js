@@ -26,6 +26,9 @@ const FormResults = ({valuesArray, missingValue}) => {
         <Wrapper>
             <Text>Your numbers: {valuesArray.toString()} </Text>
             <Text>The first missing positive number: {missingValue}</Text>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
         </Wrapper>
     )
 }
